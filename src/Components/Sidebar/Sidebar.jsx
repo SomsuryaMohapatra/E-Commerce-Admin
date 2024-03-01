@@ -19,6 +19,18 @@ const Sidebar = () => {
           <p>Product List</p>
         </div>
       </Link>
+      <Link to={"/addnewcollections"} style={{ textDecoration: "none" }}>
+        <div className="sidebar-item">
+          <img src={add_product_icon} alt="icon" />
+          <p>Add New Collections</p>
+        </div>
+      </Link>
+      <Link to={"/newcollections"} style={{ textDecoration: "none" }}>
+        <div className="sidebar-item">
+          <img src={list_product_icon} alt="icon" />
+          <p>New Collections List</p>
+        </div>
+      </Link>
     </div>
   );
 };
